@@ -1,0 +1,263 @@
+img.logo{
+			width: 20%;
+			position: absolute;
+			top: 2%;
+			left: 40%;
+		}
+div.partA{
+	font-size: 120%;
+	margin-top: 6%;
+	left: 0px;
+	padding: 1.5% 2%;
+	font-family: fantasy;
+}
+.menu{
+	margin: 2%;
+	padding: 0.5%;
+	color: black;
+	text-decoration: none;
+	transition: all 0.3s linear;
+}
+.menu:hover{
+	border-radius: 25px;
+	transition: all 0.3s linear; 
+	background-color:  #77A888;
+	color: white;
+}
+body{
+	background-color: white;
+	left: 0px;
+	right: 0px;
+}
+div.partB{
+	background-image: url(images/bg02.jpg);
+	background-position: 20% 100%;
+	background-attachment: fixed;
+	size: 100%;
+}
+img.profile{
+	float: left;
+}
+.pic img {
+    margin-top: 8%;
+	margin-left: 15%;
+	width: 34%;
+   	position:absolute;
+  	-webkit-transition: opacity 1s ease-in-out;
+   	-moz-transition: opacity 1s ease-in-out;
+   	-o-transition: opacity 1s ease-in-out;
+  	transition: opacity 1s ease-in-out;
+  	float: right;
+}
+.pic img:nth-of-type(2):hover{
+    opacity:0;
+}
+.pic2 img {
+    margin-top: 4%;
+	margin-left: 53%;
+	width: 18%;
+   	position:absolute;
+  	-webkit-transition: opacity 1s ease-in-out;
+   	-moz-transition: opacity 1s ease-in-out;
+   	-o-transition: opacity 1s ease-in-out;
+  	transition: opacity 1s ease-in-out;
+  	float: right;
+}
+.pic2 img:nth-of-type(2):hover{
+    opacity:0;
+}
+table.intro{
+	background-color: white;
+	font-size: 110%;
+	font-family: fantasy;
+	color: black;
+	font-style: bold;
+	margin-top: 5%;
+	margin-left: 47%;
+	padding: 3% 5%;
+}
+hr{
+	border-style: dashed;
+	border-color: #77A88B;
+	border-width: 2px;
+}
+span.subt{
+	margin-left: 5%;
+	font-size: 180%;
+	font-family: fantasy;
+	letter-spacing: 5px;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px gray;
+	border-radius: 40% 20%;
+	background-color: #77A88B;
+	padding: 1%;
+	color: white;
+	margin-bottom: 3%;
+}
+.subt:hover{
+ 	background-color: white;
+ 	color: black;
+}
+div.school{ 
+	font-weight: bold;
+	padding-bottom: 4%;
+	padding-top: 6%;
+}
+table.school{
+	margin-left:8%;
+	font-size: 120%;
+	font-family: fantasy;
+	padding:  4% 4%;
+	background-color: white;
+}	
+div.club{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+fieldset.club{
+	border-width: 2px;
+	border-style: dashed;
+	margin-left: 10%;
+	background-color:#EDEDED;
+	font-family: fantasy;
+	width: 50%;
+	padding: 3%;
+}
+fieldset.club:hover{
+	background-color: #FFE8E8;
+	border-width: 4px;
+}
+img.sch{
+			float: left;
+			margin-left: 5%;
+		}
+table.work{
+	margin-top: 1%;
+	margin-left: 10%;
+	font-size: 100%;
+	padding: 0px 4% 4%;
+	font-family: fantasy;
+}
+fieldset.wishes{
+	border-width: 2px;
+	border-style: dashed;
+	background-color: #EDEDED;
+	margin-left: 0%;
+	width: 66%;
+	padding: 3%;
+	margin-bottom: 2%;
+}
+fieldset.wishes:hover{
+	background-color: #FFE8E8;
+	border-width: 4px;
+}
+div.goal{
+	margin-right: 20%;
+}
+table.goal{
+	margin-left: 10%;
+	padding: 3%;
+	width: 85%;
+}
+td.g_td{
+	padding: 1.5%;
+}
+td.g_td:hover{
+	background-color: #FFD4D4;
+}
+td.g_td2{
+	padding: 1.5%;
+}
+td.g_td2:hover{
+	background-color: #FFF3DE;
+}
+div.wish{
+	width: 80%;
+	margin-left: 10%;
+}
+img.imgg{
+	margin-left: 9%;
+	transition: all 0.2s linear;
+}
+.imgg:hover{
+	transition: all 0.2s linear;
+	width: 23%;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: #77A888;
+}
+.sider{
+	background-color: #FFE8BF;
+	position: fixed;bottom: 0px;
+	right: 0px;
+	width: 20%;
+	top: 40%;
+	bottom: 20%;
+	padding-bottom: 40%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 3%;
+	font-size: 100%;
+	font-family: fantasy;
+}
+.icon{
+	margin-left: 12%;
+}
+.icon:hover{
+	transition-duration: 0.5s;
+	width: 15%;
+}
+div.life{
+	padding-top: 3%;
+	background-image: url();
+}.container{
+	margin: 2% 25% 2% 5%;
+}
+.hover-box {
+	margin-bottom: 4%;
+	float: left;
+	max-width: 25%;
+ 	max-height: 25%;
+  	box-sizing: border-box;
+  	position:relative;
+}
+.hover-box .img-box {
+  position: relative;
+  overflow: hidden;
+}
+.hover-box .img-box img {
+  margin: auto;
+  transition: transform 0.5s;
+}
+.hover-box:hover .img-box img {
+  transform: scale(1.3);
+}
+.hover-box .info-box {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  bottom:5%;
+  right:5%;
+  color:#fff;
+  background:rgba(0,0,0,.6);
+  text-align:left;
+  transform:scaleY(0);
+  transition:transform .5s;
+  width: 90%;
+} 
+.hover-box .info-box .info-content{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  padding:15%;
+}
+.hover-box:hover .info-box {
+  transform:scaleY(1);
+}
+
+footer{
+	background-color: white;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
